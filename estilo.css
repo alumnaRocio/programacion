@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+        body{
+            background-color: azure;
+            margin: 0px
+        }
+        .encabezado{
+            background-color: rgb(183, 233, 150);
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .perfil{
+            width: 150px;
+        }
+        .encabezado > h1 {
+            color: black;
+            text-align: center;
+        }
+        .encabezado > p {
+            text-align: center;
+            color: black;
+        }
+        .menu{
+            /*background-color: burlywood;*/
+
+        }
+        .menu > ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display:flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .link {
+            background-color: greenyellow;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #seccion{
+            padding: 5px;
+            background-color: white;
+         display: flex;
+        }
+        #s1{
+            padding: 5px;
+            background-color: aquamarine;
+         display: flex;
+        }
+        .piepagina{
+            background-color: rgb(127, 127, 143);
+        }
